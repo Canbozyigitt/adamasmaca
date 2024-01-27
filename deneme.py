@@ -13,7 +13,7 @@ while hak > 0:
         print(list[index])
 
 
-    tahmin=input("tahmininiz: ")
+    tahmin=input("Tahmininiz: ")
     if tahmin in kelime:
         index=kelime.index(tahmin)
         list[index]=tahmin
