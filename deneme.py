@@ -21,7 +21,7 @@ while hak > 0:
         print(list)
 
         if "".join(list)==kelime:
-            print("tebrikler") 
+            print("Tebrikler") 
             break
     elif tahmin not in kelime and hak>0:
         hak-=1
